@@ -1,0 +1,28 @@
+# Nova Assistant - Feature Planning & Command List
+
+This document outlines the commands and features intended for implementation in the Nova Assistant.
+
+## Command List
+
+| Command | Action |
+| :--- | :--- |
+| **Nova open Spotify** | Opens the Spotify application |
+| **Nova write email** | Opens Gmail in the default browser |
+| **Nova check battery** | Reports the current battery percentage and status |
+| **Nova time now** | Announces the current local time |
+| **Nova search [topic]** | Performs a Google search for the specified topic |
+| **Nova play [song/video]** | Plays music or a video on YouTube |
+| **Nova system volume [up/down]**| Adjusts the system volume levels |
+| **Nova take screenshot** | Captures the screen and saves it as an image |
+| **Nova current weather** | Fetches and tells the current weather information |
+| **Nova latest news** | Headlines the top news stories |
+| **Nova tell a joke** | Shares a random joke from the collection |
+| **Nova shutdown pc** | Shuts down the computer after confirmation |
+| **Nova calculate [expression]** | Provides results for mathematical calculations |
+
+## Upcoming Features / Roadmap
+- [ ] **Voice Recognition Refinement**: Improving accuracy using Vosk or Google Speech Recognition.
+- [ ] **NLP Integration**: Basic intent recognition for more natural conversations.
+- [ ] **System Control**: Advanced PC controls (brightness, sleep mode, restart).
+- [ ] **API Integrations**: OpenWeatherMap, NewsAPI, and Spotify SDK.
+- [ ] **GUI Dashboard**: A visual interface to see Nova's status and logs.

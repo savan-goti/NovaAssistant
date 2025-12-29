@@ -1,0 +1,12 @@
+2025-12-29 22:44:52 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-29 22:44:52 - Using writeable comtypes cache directory: 'C:\Users\dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-12-29 22:44:53 - Nova: Nova Assistant is online.
+2025-12-29 22:44:59 - User: nova play some music
+2025-12-29 22:44:59 - Nova: Playing some music
+2025-12-29 22:45:12 - User: nova stop
+2025-12-29 22:45:12 - Nova: I'm not sure how to help with that yet.
+2025-12-29 22:45:28 - User: nova stop
+2025-12-29 22:45:28 - Nova: I'm not sure how to help with that yet.
+2025-12-29 22:45:36 - User: exit
+2025-12-29 22:45:41 - User: nova exit
+2025-12-29 22:45:41 - Nova: Goodbye! Have a great day.
