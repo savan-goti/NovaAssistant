@@ -95,3 +95,116 @@
 2025-12-30 19:57:25 - User: nova open note
 2025-12-30 19:57:25 - Nova: I don't know that yet. You can teach me.
 2025-12-30 19:57:32 - User: open notepad
+2025-12-30 20:08:27 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-30 20:08:27 - Using writeable comtypes cache directory: 'C:\Users\dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-12-30 20:08:27 - Nova: Nova is online and ready.
+2025-12-30 20:08:35 - System: Could not understand audio
+2025-12-30 20:08:38 - System: Could not understand audio
+2025-12-30 20:08:41 - System: Could not understand audio
+2025-12-30 20:08:46 - System: Could not understand audio
+2025-12-30 20:08:49 - System: Could not understand audio
+2025-12-30 20:08:52 - System: Could not understand audio
+2025-12-30 20:08:55 - Nova: Shutting down
+2025-12-30 20:08:56 - System: Shutdown via keyboard interrupt
+2025-12-30 20:15:50 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-30 20:15:50 - Using writeable comtypes cache directory: 'C:\Users\dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-12-30 20:15:50 - Nova: Nova is online and ready.
+2025-12-30 20:15:56 - User (raw): hello Nova
+2025-12-30 20:15:56 - Nova: Hello! How can I help you?
+2025-12-30 20:16:02 - User (raw): what is the time
+2025-12-30 20:16:02 - User (normalized): what is the ti ame
+2025-12-30 20:16:12 - System: Could not understand audio
+2025-12-30 20:16:15 - System: Could not understand audio
+2025-12-30 20:16:20 - User (raw): learning
+2025-12-30 20:16:26 - User (raw): Nova landing
+2025-12-30 20:16:26 - Nova: I don't know that command yet. You can teach me by saying learn new command.
+2025-12-30 20:16:35 - User (raw): learning mode
+2025-12-30 20:16:42 - System: Could not understand audio
+2025-12-30 20:16:44 - System: Could not understand audio
+2025-12-30 20:16:47 - User (raw): Nova screenshot
+2025-12-30 20:16:47 - Nova: Taking screenshot
+2025-12-30 20:16:49 - Nova: Screenshot saved
+2025-12-30 20:16:56 - System: Could not understand audio
+2025-12-30 20:17:05 - User (raw): Nova open Google
+2025-12-30 20:17:05 - Nova: Searching for open
+2025-12-30 20:17:18 - User (raw): search youtube.com
+2025-12-30 20:17:18 - User (normalized): search youtubecom
+2025-12-30 20:17:23 - User (raw): youtube.com
+2025-12-30 20:17:23 - User (normalized): youtubecom
+2025-12-30 20:17:29 - User (raw): Nova search youtube.com
+2025-12-30 20:17:29 - User (normalized): nova search youtubecom
+2025-12-30 20:17:29 - Nova: Searching for youtubecom
+2025-12-30 20:17:37 - User (raw): Nova select YouTube
+2025-12-30 20:17:37 - Nova: I don't know that command yet. You can teach me by saying learn new command.
+2025-12-30 20:17:45 - User (raw): no I select YouTube
+2025-12-30 20:17:55 - System: Could not understand audio
+2025-12-30 20:18:00 - System: Could not understand audio
+2025-12-30 20:18:02 - System: Could not understand audio
+2025-12-30 20:18:06 - User (raw): Nova time
+2025-12-30 20:18:06 - User (normalized): nova ti ame
+2025-12-30 20:18:06 - Nova: I don't know that command yet. You can teach me by saying learn new command.
+2025-12-30 20:18:26 - System: Could not understand audio
+2025-12-30 20:18:29 - System: Could not understand audio
+2025-12-30 20:18:31 - User (raw): what time
+2025-12-30 20:18:31 - User (normalized): what ti ame
+2025-12-30 20:18:35 - System: Could not understand audio
+2025-12-30 20:18:39 - User (raw): Nova date
+2025-12-30 20:18:39 - Nova: Today is December 30, 2025
+2025-12-30 20:18:48 - System: Could not understand audio
+2025-12-30 20:18:52 - User (raw): Nova tomorrow date
+2025-12-30 20:18:52 - Nova: Today is December 30, 2025
+2025-12-30 20:18:59 - User (raw): Nova time
+2025-12-30 20:18:59 - User (normalized): nova ti ame
+2025-12-30 20:18:59 - Nova: I don't know that command yet. You can teach me by saying learn new command.
+2025-12-30 20:19:08 - User (raw): Nova Chrome
+2025-12-30 20:19:08 - Nova: I don't know that command yet. You can teach me by saying learn new command.
+2025-12-30 20:19:20 - User (raw): Nova Gmail.com open
+2025-12-30 20:19:20 - User (normalized): nova gmailcom open
+2025-12-30 20:19:20 - Nova: Opening Gmail
+2025-12-30 20:19:27 - System: Could not understand audio
+2025-12-30 20:19:29 - System: Could not understand audio
+2025-12-30 20:19:39 - System: Could not understand audio
+2025-12-30 20:19:42 - System: Could not understand audio
+2025-12-30 20:19:45 - System: Could not understand audio
+2025-12-30 20:19:48 - System: Could not understand audio
+2025-12-30 20:19:51 - User (raw): Innova battery
+2025-12-30 20:19:51 - Nova: Battery is at 100 percent and plugged in
+2025-12-30 20:19:58 - User (raw): Nova search Google
+2025-12-30 20:19:58 - Nova: What should I search for?
+2025-12-30 20:20:03 - User (raw): youtube.com
+2025-12-30 20:20:03 - User (normalized): youtubecom
+2025-12-30 20:20:03 - Nova: Searching for youtubecom
+2025-12-30 20:20:10 - User (raw): Nova open YouTube
+2025-12-30 20:20:10 - Nova: I don't know that command yet. You can teach me by saying learn new command.
+2025-12-30 20:20:26 - User (raw): Nova open Notepad
+2025-12-30 20:20:26 - Nova: Executing learned command
+2025-12-30 20:20:28 - System: Matched learned command: 'open notepad'
+2025-12-30 20:20:33 - System: Could not understand audio
+2025-12-30 20:20:37 - System: Could not understand audio
+2025-12-30 20:20:41 - System: Could not understand audio
+2025-12-30 20:20:55 - User (raw): Nova open Notepad
+2025-12-30 20:20:55 - Nova: Executing learned command
+2025-12-30 20:20:57 - System: Matched learned command: 'open notepad'
+2025-12-30 20:21:04 - User (raw): no of right hello how
+2025-12-30 20:21:13 - User (raw): Nova write a Notepad hello how are you
+2025-12-30 20:21:13 - Nova: Hello! How can I help you?
+2025-12-30 20:21:19 - System: Could not understand audio
+2025-12-30 20:21:29 - User (raw): Nova open new tab in notepad
+2025-12-30 20:21:29 - Nova: I don't know that command yet. You can teach me by saying learn new command.
+2025-12-30 20:21:41 - User (raw): Nova lending mode
+2025-12-30 20:21:41 - Nova: Learning mode activated. What trigger phrase should I listen for?
+2025-12-30 20:21:53 - User (raw): Nova open new tab in note
+2025-12-30 20:21:53 - Nova: Got it. When you say nova open new tab in note, what action should I perform?
+2025-12-30 20:22:06 - User (raw): new tab open in notepad
+2025-12-30 20:22:06 - Nova: The action should be a program path or web URL. For example, C:\Windows\System32\notepad.exe
+2025-12-30 20:22:21 - User (raw): no open Notepad
+2025-12-30 20:22:33 - User (raw): Nova open Notepad
+2025-12-30 20:22:33 - Nova: Executing learned command
+2025-12-30 20:22:35 - System: Matched learned command: 'open notepad'
+2025-12-30 20:22:42 - User (raw): Nova open
+2025-12-30 20:22:42 - Nova: I don't know that command yet. You can teach me by saying learn new command.
+2025-12-30 20:22:51 - User (raw): no a new tab open in notepad
+2025-12-30 20:22:59 - User (raw): Nova open new tab in notepad
+2025-12-30 20:22:59 - Nova: I don't know that command yet. You can teach me by saying learn new command.
+2025-12-30 20:23:08 - User (raw): no Exit
+2025-12-30 20:23:08 - Nova: Goodbye
