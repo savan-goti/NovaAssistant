@@ -6,8 +6,12 @@ import pyautogui
 import datetime
 import psutil
 import logging
+import json
 
-# Configure Logging
+# ---------------- CONFIG ----------------
+
+COMMANDS_FILE = "learned_commands.json"
+
 logging.basicConfig(
     filename="nova_log.txt",
     level=logging.INFO,
@@ -18,14 +22,11 @@ logging.basicConfig(
 engine = pyttsx3.init()
 recognizer = sr.Recognizer()
 
+# ---------------- UTILITIES ----------------
+
 def log_interaction(entity, message):
-    """Logs the interaction to the log file and prints to console."""
-    log_entry = f"{entity}: {message}"
-    logging.info(log_entry)
-    if entity == "Nova":
-        print(f"Nova: {message}")
-    elif entity == "User":
-        print(f"User: {message}")
+    logging.info(f"{entity}: {message}")
+    print(f"{entity}: {message}")
 
 def speak(text):
     log_interaction("Nova", text)
@@ -41,10 +42,62 @@ def listen():
             text = recognizer.recognize_google(audio).lower()
             log_interaction("User", text)
             return text
-        except Exception as e:
+        except:
             return ""
 
+# ---------------- LEARNING MODE ----------------
+
+def load_learned_commands():
+    if not os.path.exists(COMMANDS_FILE):
+        return {}
+    with open(COMMANDS_FILE, "r") as f:
+        return json.load(f)
+
+def save_learned_commands(commands):
+    with open(COMMANDS_FILE, "w") as f:
+        json.dump(commands, f, indent=4)
+
+learned_commands = load_learned_commands()
+
+def learning_mode():
+    speak("Learning mode activated. What should I listen for?")
+    trigger = listen()
+
+    if not trigger:
+        speak("I didn't hear a trigger phrase.")
+        return
+
+    speak("What action should I perform?")
+    action = listen()
+
+    if not action:
+        speak("I didn't hear the action.")
+        return
+
+    learned_commands[trigger] = action
+    save_learned_commands(learned_commands)
+
+    speak(f"I have learned the command {trigger}")
+
+# ---------------- COMMAND PROCESSOR ----------------
+
 def process_command(cmd):
+    # --- Learning Mode ---
+    if "learn new command" in cmd or "learning mode" in cmd:
+        learning_mode()
+        return
+
+    # --- Learned Commands ---
+    for trigger, action in learned_commands.items():
+        if trigger in cmd:
+            speak(f"Executing learned command {trigger}")
+            if action.startswith("http"):
+                webbrowser.open(action)
+            else:
+                os.startfile(action)
+            return
+
+    # --- Built-in Commands ---
     if "open chrome" in cmd:
         speak("Opening Chrome")
         os.startfile("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe")
@@ -60,43 +113,38 @@ def process_command(cmd):
         speak("Opening Gmail")
         webbrowser.open("https://mail.google.com")
 
-    elif "time now" in cmd or "the time" in cmd:
+    elif "time" in cmd:
         current_time = datetime.datetime.now().strftime("%I:%M %p")
-        speak(f"The current time is {current_time}")
+        speak(f"The time is {current_time}")
 
-    elif "check battery" in cmd or "battery status" in cmd:
+    elif "battery" in cmd:
         battery = psutil.sensors_battery()
         if battery:
-            percentage = battery.percent
-            plugged = battery.power_plugged
-            status = "plugged in" if plugged else "not plugged in"
-            speak(f"Battery is at {percentage} percent and it is {status}")
+            status = "plugged in" if battery.power_plugged else "not plugged in"
+            speak(f"Battery is at {battery.percent} percent and {status}")
         else:
-            speak("Battery information is not available")
+            speak("Battery info unavailable")
 
     elif "search" in cmd:
-        if "search" == cmd.strip():
+        query = cmd.replace("search", "").strip()
+        if not query:
             speak("What should I search?")
             query = listen()
-        else:
-            query = cmd.replace("search", "").strip()
-        
         if query:
-            url = "https://www.google.com/search?q=" + query
-            webbrowser.open(url)
-            speak("Searching " + query)
+            webbrowser.open(f"https://www.google.com/search?q={query}")
+            speak(f"Searching {query}")
 
     elif "play" in cmd:
         query = cmd.replace("play", "").strip()
         if query:
-            speak(f"Playing {query}")
             webbrowser.open(f"https://www.youtube.com/results?search_query={query}")
+            speak(f"Playing {query}")
 
-    elif "take screenshot" in cmd:
+    elif "screenshot" in cmd:
         speak("Taking screenshot")
-        screenshot = pyautogui.screenshot()
-        timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-        screenshot.save(f"screenshot_{timestamp}.png")
+        img = pyautogui.screenshot()
+        filename = f"screenshot_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
+        img.save(filename)
         speak("Screenshot saved")
 
     elif "volume up" in cmd:
@@ -112,32 +160,29 @@ def process_command(cmd):
         pyautogui.hotkey("alt", "f4")
 
     elif "shutdown" in cmd:
-        speak("Are you sure you want to shut down?")
-        reply = listen()
-        if "yes" in reply:
-            speak("Shutting down in 5 seconds")
+        speak("Are you sure?")
+        if "yes" in listen():
+            speak("Shutting down")
             os.system("shutdown /s /t 5")
-        else:
-            speak("Shutdown cancelled")
 
-    elif "nova stop" in cmd or "stop nova" in cmd or "exit" in cmd:
-        speak("Goodbye! Have a great day.")
+    elif "stop nova" in cmd or "exit" in cmd:
+        speak("Goodbye")
         exit()
 
     else:
-        speak("I'm not sure how to help with that yet.")
+        speak("I don't know that yet. You can teach me.")
 
-print("Nova Assistant is Starting...")
-speak("Nova Assistant is online.")
+# ---------------- MAIN LOOP ----------------
+
+print("Nova Assistant Starting...")
+speak("Nova is online and ready.")
 
 while True:
     command = listen()
     if "nova" in command:
         cmd = command.replace("nova", "").strip()
-        if cmd == "":
-            speak("How can I help you?")
+        if not cmd:
+            speak("Yes?")
             cmd = listen()
-            if cmd:
-                process_command(cmd)
-        else:
+        if cmd:
             process_command(cmd)

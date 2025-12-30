@@ -10,3 +10,88 @@
 2025-12-29 22:45:36 - User: exit
 2025-12-29 22:45:41 - User: nova exit
 2025-12-29 22:45:41 - Nova: Goodbye! Have a great day.
+2025-12-30 19:43:15 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-30 19:43:15 - Using writeable comtypes cache directory: 'C:\Users\dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-12-30 19:43:15 - Nova: Nova Assistant is online.
+2025-12-30 19:43:23 - User: nova hello
+2025-12-30 19:43:23 - Nova: I'm not sure how to help with that yet.
+2025-12-30 19:43:30 - User: what is the time now
+2025-12-30 19:43:40 - User: nova time
+2025-12-30 19:43:40 - Nova: I'm not sure how to help with that yet.
+2025-12-30 19:43:49 - User: lower volume up
+2025-12-30 19:43:56 - User: volume up
+2025-12-30 19:44:07 - User: nova volume
+2025-12-30 19:44:07 - Nova: I'm not sure how to help with that yet.
+2025-12-30 19:44:15 - User: nova open chrome
+2025-12-30 19:44:15 - Nova: Opening Chrome
+2025-12-30 19:44:23 - User: nova search youtube.com
+2025-12-30 19:44:23 - Nova: Searching youtube.com
+2025-12-30 19:44:34 - User: window
+2025-12-30 19:44:40 - User: nova close window
+2025-12-30 19:44:56 - User: nova check battery
+2025-12-30 19:44:56 - Nova: Battery is at 100 percent and it is plugged in
+2025-12-30 19:45:03 - User: nova open
+2025-12-30 19:45:03 - Nova: I'm not sure how to help with that yet.
+2025-12-30 19:45:09 - User: open spotify
+2025-12-30 19:45:19 - User: nova open spotify
+2025-12-30 19:45:19 - Nova: Opening Spotify
+2025-12-30 19:45:48 - User: no time now
+2025-12-30 19:45:55 - User: nova time now
+2025-12-30 19:45:55 - Nova: The current time is 07:45 PM
+2025-12-30 19:46:14 - User: nova play
+2025-12-30 19:46:37 - User: nova store
+2025-12-30 19:46:37 - Nova: I'm not sure how to help with that yet.
+2025-12-30 19:46:51 - User: nova stop
+2025-12-30 19:46:51 - Nova: I'm not sure how to help with that yet.
+2025-12-30 19:46:59 - User: nova stop nova
+2025-12-30 19:46:59 - Nova: I'm not sure how to help with that yet.
+2025-12-30 19:47:07 - User: nova exit
+2025-12-30 19:47:07 - Nova: Goodbye! Have a great day.
+2025-12-30 19:49:50 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-30 19:49:50 - Using writeable comtypes cache directory: 'C:\Users\dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-12-30 19:49:51 - Nova: Nova is online and ready.
+2025-12-30 19:49:57 - User: learn new
+2025-12-30 19:50:11 - User: open notepad
+2025-12-30 19:50:36 - User: nova learn new command
+2025-12-30 19:50:37 - Nova: Learning mode activated. What should I listen for?
+2025-12-30 19:50:45 - User: open notepad
+2025-12-30 19:50:45 - Nova: What action should I perform?
+2025-12-30 19:50:57 - Nova: I didn't hear the action.
+2025-12-30 19:51:08 - User: notepad.exe
+2025-12-30 19:51:17 - User: nova open notepad
+2025-12-30 19:51:17 - Nova: I don't know that yet. You can teach me.
+2025-12-30 19:51:35 - User: nova learn
+2025-12-30 19:51:35 - Nova: I don't know that yet. You can teach me.
+2025-12-30 19:51:42 - User: learn new command
+2025-12-30 19:51:53 - User: nova learn new
+2025-12-30 19:51:53 - Nova: I don't know that yet. You can teach me.
+2025-12-30 19:52:10 - User: nova learn
+2025-12-30 19:52:10 - Nova: I don't know that yet. You can teach me.
+2025-12-30 19:53:16 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-30 19:53:16 - Using writeable comtypes cache directory: 'C:\Users\dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-12-30 19:53:28 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-30 19:53:28 - Using writeable comtypes cache directory: 'C:\Users\dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-12-30 19:53:28 - Nova: Nova is online and ready.
+2025-12-30 19:53:34 - User: learn
+2025-12-30 19:53:39 - User: nova learn
+2025-12-30 19:53:39 - Nova: I don't know that yet. You can teach me.
+2025-12-30 19:54:26 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-30 19:54:26 - Using writeable comtypes cache directory: 'C:\Users\dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-12-30 19:54:26 - Nova: Nova is online and ready.
+2025-12-30 19:54:32 - User: nova learning mode
+2025-12-30 19:54:32 - Nova: Learning mode activated. What should I listen for?
+2025-12-30 19:54:43 - User: 89
+2025-12-30 19:54:43 - Nova: What action should I perform?
+2025-12-30 19:54:51 - User: open notepad
+2025-12-30 19:54:51 - Nova: I have learned the command 89
+2025-12-30 19:55:57 - User: nova open notepad
+2025-12-30 19:55:57 - Nova: I don't know that yet. You can teach me.
+2025-12-30 19:56:18 - User: nova exit
+2025-12-30 19:56:18 - Nova: Goodbye
+2025-12-30 19:57:13 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-30 19:57:13 - Using writeable comtypes cache directory: 'C:\Users\dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-12-30 19:57:13 - Nova: Nova is online and ready.
+2025-12-30 19:57:19 - User: open notepad
+2025-12-30 19:57:25 - User: nova open note
+2025-12-30 19:57:25 - Nova: I don't know that yet. You can teach me.
+2025-12-30 19:57:32 - User: open notepad
